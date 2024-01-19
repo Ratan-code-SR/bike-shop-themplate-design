@@ -39,6 +39,7 @@
     </style>
 </head>
 
+
 <body class="poppins-font">
     <header class="md:container mx-auto px-4">
         <nav>
@@ -75,21 +76,18 @@
                 </div>
             </div>
         </nav>
-
-
-
-        <!--  -->
+        <!-- carosel -->
         <div class="carousel w-full bg-bike-primary">
-            <!--first  -->
             <div id="slide1" class="carousel-item relative w-full">
-                <div class="flex justify-evenly items-center p-5">
-                    <div class="w-2/5 leading-8">
-                        <h1 class=" text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                <!-- first -->
+                <div class="flex flex-col  md:flex-row gap-2 justify-evenly md:items-center p-5">
+                    <div class=" md:w-2/5  md:leading-8">
+                        <h1 class="text-4xl md:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                         <p>Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                         <button class="btn  bg-primary px-10 rounded-sm text-white ">BUY NOW</button>
                     </div>
-                    <div class="w-2/6">
+                    <div class=" md:w-2/6">
                         <img src="images/slider/bike1.png" alt="">
                     </div>
                 </div>
@@ -98,17 +96,17 @@
                     <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <!-- second -->
             <div id="slide2" class="carousel-item relative w-full">
-                <div class="flex justify-evenly items-center p-5">
-                    <div class="w-2/5 leading-8">
-                        <h1 class=" text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                <!-- second -->
+                <div class="flex flex-col  md:flex-row gap-2 justify-evenly md:items-center p-5">
+                    <div class=" md:w-2/5  md:leading-8">
+                        <h1 class="text-4xl md:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                         <p>Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                         <button class="btn  bg-primary px-10 rounded-sm text-white ">BUY NOW</button>
                     </div>
-                    <div class="w-2/6">
-                        <img src="images/slider/bike1.png" alt="">
+                    <div class=" md:w-2/6">
+                        <img src="images/slider/bike2.png" alt="">
                     </div>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -118,15 +116,15 @@
             </div>
             <!-- tird -->
             <div id="slide3" class="carousel-item relative w-full">
-                <div class="flex justify-evenly items-center p-5">
-                    <div class="w-2/5 leading-8">
-                        <h1 class=" text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                <div class="flex flex-col  md:flex-row gap-2 justify-evenly md:items-center p-5">
+                    <div class=" md:w-2/5  md:leading-8">
+                        <h1 class="text-4xl md:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                         <p>Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                         <button class="btn  bg-primary px-10 rounded-sm text-white ">BUY NOW</button>
                     </div>
-                    <div class="w-2/6">
-                        <img src="images/slider/bike3.png" alt="">
+                    <div class=" md:w-2/6">
+                        <img src="images/slider/bike2.png" alt="">
                     </div>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -134,28 +132,25 @@
                     <a href="#slide4" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <!-- forth -->
-            <div id="slide4" class="carousel-item relative w-full">
-                <div class="flex justify-evenly items-center p-5">
-                    <div class="w-2/5 leading-8">
-                        <h1 class=" text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
-                        <p>Amet minim mollit non deserunt ullamco
-                            est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                        <button class="btn  bg-primary px-10 rounded-sm text-white ">BUY NOW</button>
-                    </div>
-                    <div class="w-2/6">
-                        <img src="images/slider/bike1.png" alt="">
-                    </div>
-                </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                </div>
-            </div>
+        </div>
         </div>
     </header>
+    <main class="md:container mx-auto px-4 py-10">
+        <!-- bike feature section -->
+        <section>
+            <div class="text-center">
+                <h1 class="text-4xl font-semibold">Fetured Bikes In This Year</h1>
+                <p class="text-primary">Best bike collection</p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-10 justify-evenly items-center py-20">
+                <img class="w-4/5 md:w-1/4" src="images/others/extrabike.png" alt="">
+                <img class="w-4/5 md:w-1/4" src="images/others/feature-bike.png" alt="">
+                <img class="w-4/5 md:w-1/4" src="images/others/extrabike.png" alt="">
 
-    <main class="md:container mx-auto px-4"></main>
+            </div>
+        </section>
+    </main>
+
 
     <footer></footer>
 </body>
